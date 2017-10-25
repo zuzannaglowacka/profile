@@ -1,0 +1,77 @@
+body {
+  background-image: url('images/background.jpeg');
+  /* cover makes sure the image covers the whole element */
+  background-size: cover;
+  /* fixed fixes the image so it doesn't scroll with the content */
+  background-attachment: fixed;
+  /* the image is zoomed thanks to cover, so center zooms in the center */
+  background-position: center;
+  font-family: 'Crimson Text', serif;
+  color: #0F1020;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  color: #0F1020;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  color: #0F1020;
+  font-size: 20px;
+  font-weight: bold;
+  /* Kill margin by default */
+  margin: 0;
+  /* Manually re-add some margin bottom */
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: 'Crimson Text', serif;
+  color: #757083;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*
+*{
+border: 1px solid rgba(0,0,0,0.5);
+}
+*/
+.card {
+background: rgba(240, 240, 240, 0.9);
+box-shadow: 2px 2px 3px rgb(190,190,190);
+text-align: center;
+margin: 10px;
+border: 1px solid rgb(200, 200, 200);
+border-radius: 5px;
+padding: 10px;
+}
+
+/* container on desktop */
+.layout {
+  width: 60%;
+  margin: 0 auto;
+}
+/* container on phone */
+@media screen and (max-width: 480px) {
+  .layout {
+    width: 80%;
+  }
+}
+.movie {
+  height: 180px;
+  width: auto;
+}
+
+
+
+
+
