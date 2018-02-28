@@ -6,34 +6,44 @@ body {
   background-attachment: fixed;
   /* the image is zoomed thanks to cover, so center zooms in the center */
   background-position: center;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Slab', serif;
   color: #0F1020;
   font-size: 20px;
 }
 
 h1 {
-  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
   color: #0F1020;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 25px;
 }
 
 h2 {
-  font-family: 'Crimson Text', serif;
   color: #0F1020;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: bolder;
   /* Kill margin by default */
   margin: 0;
   /* Manually re-add some margin bottom */
   margin-bottom: 20px;
 }
 
-a {
-  font-family: 'Crimson Text', serif;
-  color: #757083;
+h3 {
+  font-size: 22px;
+  font-weight: bolder;
+
+}
+
+p {
   font-size: 20px;
-  font-weight: bold;
+  text-align: justify center;
+  /*font-weight: bolder;*/
+
+}
+
+a {
+  color: #255689 ;
+  font-size: 20px;
+  font-weight: bolder;
   text-decoration: none;
 }
 
@@ -54,6 +64,18 @@ border: 1px solid rgb(200, 200, 200);
 border-radius: 5px;
 padding: 10px;
 }
+
+.card1 {
+font-weight: bolder;
+background: rgba(240, 240, 240, 0.9);
+box-shadow: 2px 2px 3px rgb(190,190,190);
+text-align: center;
+margin: 10px;
+border: 1px solid rgb(200, 200, 200);
+border-radius: 5px;
+padding: 10px;
+}
+
 
 /* container on desktop */
 .layout {
